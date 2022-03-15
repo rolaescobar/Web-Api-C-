@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "BAcxAY/vHzuCAo0Z52D/7vP/wgTVxc3eMGwTQiWgTZE=",
+  "Hash": "R6mW7Mjl50+fNqE19O0tyT5qMKxFy4aunRLFaTixzTo=",
   "Source": "WebApiAutores",
   "BasePath": "_content/WebApiAutores",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiAutores\\wwwroot",
+      "Source": "WebApiAutores",
+      "ContentRoot": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\wwwroot\\",
+      "BasePath": "_content/WebApiAutores",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\wwwroot\\Archivo 1.txt",
+      "SourceId": "WebApiAutores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\wwwroot\\",
+      "BasePath": "_content/WebApiAutores",
+      "RelativePath": "Archivo 1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Archivo 1.txt"
+    }
+  ]
 }

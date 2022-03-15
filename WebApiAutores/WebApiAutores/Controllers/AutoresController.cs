@@ -1,13 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApiAutores.Entidades;
+using WebApiAutores.Filtros;
 using WebApiAutores.Servicios;
 
 namespace WebApiAutores.Controllers
 {
 
     [ApiController]
-    [Route("api/autores")]  
+    [Route("api/autores")]
+    // [Authorize]
     public class AutoresController : ControllerBase
     {
 
@@ -18,7 +21,7 @@ namespace WebApiAutores.Controllers
         private readonly ServicioSinglenton servicioSinglenton;
         private readonly ILogger<AutoresController> logger;
 
-        public AutoresController(ApplicationDbContext context,IServicio servicio,ServicioTransient servicioTransient,ServicioScoped servicioScoped,ServicioSinglenton servicioSinglenton,ILogger<AutoresController> logger)
+        public AutoresController(ApplicationDbContext context, IServicio servicio, ServicioTransient servicioTransient, ServicioScoped servicioScoped, ServicioSinglenton servicioSinglenton, ILogger<AutoresController> logger)
         {
             this.context = context;
             this.servicio = servicio;
@@ -29,7 +32,9 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpGet("GUID")]
-        public ActionResult ObtenerGuids()
+        //[ResponseCache(Duration =10)]
+        [ServiceFilter(typeof(MiFiltroDeAccion))]
+      public ActionResult ObtenerGuids()
         {
             return Ok(new
                 {
@@ -51,8 +56,9 @@ namespace WebApiAutores.Controllers
         
         }
 
-
+        [HttpGet("listado")]
         [HttpGet("/listado")]
+        [ServiceFilter(typeof(MiFiltroDeAccion))]
         public  async Task<ActionResult<List<Autor>>> Get()
         {
             logger.LogInformation("Estamos Obteniendo los Autores");

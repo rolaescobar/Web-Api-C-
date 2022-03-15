@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rgarcia\\Documents\\GitHub\\Web Api C#\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj": {}
+    "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rgarcia\\Documents\\GitHub\\Web Api C#\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj": {
+    "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web Api C#\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj",
+        "projectUniqueName": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj",
         "projectName": "WebApiAutores",
-        "projectPath": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web Api C#\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj",
+        "projectPath": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj",
         "packagesPath": "C:\\Users\\rgarcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web Api C#\\WebApiAutores\\WebApiAutores\\obj\\",
+        "outputPath": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rgarcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.2, )"
