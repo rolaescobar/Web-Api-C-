@@ -144,3 +144,5 @@ C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\obj
 C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\obj\Debug\net6.0\WebApiAutores.genruntimeconfig.cache
 C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\WebApiAutores.staticwebassets.runtime.json
+C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

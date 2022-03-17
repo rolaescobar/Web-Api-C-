@@ -1,16 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using WebApiAutores.Validaciones;
 
-namespace WebApiAutores.Entidades
+namespace WebApiAutores.DTOs
 {
-    public class Autor
+    public class AutorCreacionDTO
     {
-        public int Id { get; set; }
-
-        [Required(ErrorMessage ="El campo nombre es requerido")]
+        [Required(ErrorMessage = "El campo nombre es requerido")]
         [PrimeraLetraMayuscula]
         public string Nombre { get; set; }
-
-   
     }
 }

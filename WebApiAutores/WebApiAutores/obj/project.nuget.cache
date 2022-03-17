@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gVbcDagcScqzkodEx74EpY/ZR1DzKTgGluB9ZTbh+SYF1SwC8vGy2UvHj8OxPk114A7QLX+HEwWZ4L8v736bJA==",
+  "dgSpecHash": "bFR8bOTadWPbmVZYLsDEuQs8B3WH0JWeBvO9ZYMtLvQS1NblVkXlBLfOpZFAmdV/puZIyFNqAfNZ90R6kUKk+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\rgarcia\\Documents\\GitHub\\Web-Api-Csharp\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rgarcia\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\rgarcia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\rgarcia\\.nuget\\packages\\humanizer.core\\2.13.14\\humanizer.core.2.13.14.nupkg.sha512",
     "C:\\Users\\rgarcia\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.3\\microsoft.aspnetcore.authentication.jwtbearer.6.0.3.nupkg.sha512",
-    "C:\\Users\\rgarcia\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\rgarcia\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rgarcia\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\rgarcia\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\rgarcia\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-preview.1.22076.6\\microsoft.entityframeworkcore.7.0.0-preview.1.22076.6.nupkg.sha512",
