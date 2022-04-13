@@ -146,3 +146,7 @@ C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin
 C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\WebApiAutores.staticwebassets.runtime.json
 C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\rgarcia\Documents\GitHub\Web-Api-Csharp\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

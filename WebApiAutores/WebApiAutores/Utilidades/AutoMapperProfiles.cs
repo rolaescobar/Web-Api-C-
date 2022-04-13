@@ -9,15 +9,19 @@ namespace WebApiAutores.Utilidades
         public AutoMapperProfiles()
         {
             CreateMap<AutorCreacionDTO, Autor>();
-            CreateMap<Autor,AutorDTO>()
-                .ForMember(autorDTO => autorDTO.libros,opciones.MapFrom(MapAutoresDTOLibros));
+            CreateMap<Autor, AutorDTO>();
+            CreateMap<Autor, AutorDTOConLibros>()
+                .ForMember(autorDTO => autorDTO.libros, opciones => opciones.MapFrom(MapAutoresDTOLibros));
 
            
             CreateMap<LibroCreacionDTO, Libro>()
                 .ForMember(libro => libro.AutoresLibros,opciones =>opciones.MapFrom(MapAutoresLibros));
-            CreateMap<Libro,LibroDTO>()
+
+            CreateMap<Libro, LibroDTO>();
+            CreateMap<Libro,LibroDTOConAutores>()
                 .ForMember(LibroDTO => LibroDTO.Autores,opciones =>opciones.MapFrom(MapLibroDTOAutores));
            
+            CreateMap<LibroPatchDTO,Libro>().ReverseMap();
             CreateMap<ComentarioCreacionDTO, Comentario>();
             CreateMap<Comentario,ComentarioDTO>();
         }
@@ -25,7 +29,17 @@ namespace WebApiAutores.Utilidades
         private List<LibroDTO> MapAutoresDTOLibros(Autor autor,AutorDTO autorDTO)
         { 
             var resultado =  new List<LibroDTO>();
+            if (autor.AutoresLibros == null) { return resultado; }
 
+            foreach (var autorLibro in autor.AutoresLibros)
+            {
+                resultado.Add(new LibroDTO()
+                {
+                    Id = autorLibro.LibroId,
+                    Titulo = autorLibro.libro.Titulo
+
+                });
+            }
 
             return resultado;
         }

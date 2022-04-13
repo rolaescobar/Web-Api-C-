@@ -22,8 +22,8 @@ namespace WebApiAutores
             {
                 opciones.Filters.Add(typeof(FiltroDeExcepcion));
             }).AddJsonOptions(x =>
-            x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles).AddNewtonsoftJson();
+       
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
             services.AddDbContext<ApplicationDbContext>(options =>
